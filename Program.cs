@@ -1,5 +1,6 @@
 ﻿using curso.Models;
 
+DateTime dataAtual = DateTime.Now;
 string cidade = "São Paulo";
 int quantidade = 10;
 double preco = 10.50;
@@ -11,6 +12,7 @@ Console.WriteLine("A quantidade é: " + quantidade);
 Console.WriteLine("O preço é: " + preco.ToString("0.0000"));
 Console.WriteLine("O valor é: " + valor);
 Console.WriteLine("O ativo é: " + ativo);
+Console.WriteLine("A data atual é: " + dataAtual.ToString("dd/MM/yyyy HH:mm:ss"));
 
 Pessoa p1 = new Pessoa();
 
