@@ -6,7 +6,11 @@ int quantidade = 10;
 double preco = 10.50;
 decimal valor = 10.50m;
 bool ativo = true;
+int a = Convert.ToInt32("5");
+int b = int.Parse("5");
 
+Console.WriteLine(a);
+Console.WriteLine(b);
 Console.WriteLine("A cidade é: " + cidade);
 Console.WriteLine("A quantidade é: " + quantidade);
 Console.WriteLine("O preço é: " + preco.ToString("0.0000"));
