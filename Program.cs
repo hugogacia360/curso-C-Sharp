@@ -1,6 +1,6 @@
 ﻿using curso.Models;
 
-DateTime dataAtual = DateTime.Now;
+/* DateTime dataAtual = DateTime.Now;
 string cidade = "São Paulo";
 int quantidade = 10;
 double preco = 10.50;
@@ -28,3 +28,18 @@ p1.Nome = "Hugo";
 p1.Idade = 20;
 
 p1.Apresentar();
+*/
+
+Console.WriteLine("A quantidade em estoque");
+int quantEstoque = int.Parse(Console.ReadLine());
+Console.WriteLine("A quantidade vendida");
+int quantVendida = int.Parse(Console.ReadLine());
+
+if (quantEstoque >= quantVendida)
+{
+    Console.WriteLine("A quantidade em estoque é: " + (quantEstoque - quantVendida));
+}
+else
+{
+    Console.WriteLine("A quantidade vendida é maior que a quantidade em estoque");
+}
