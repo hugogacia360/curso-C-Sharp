@@ -9,6 +9,8 @@ bool ativo = true;
 int a = Convert.ToInt32("5");
 int b = int.Parse("5");
 string c = 5.ToString();
+string d = "15-";
+int.TryParse(d, out int e);
 
 Console.WriteLine(a);
 Console.WriteLine(b);
